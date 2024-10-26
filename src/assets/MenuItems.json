@@ -1,0 +1,22 @@
+[
+  {
+    "Plan": "Regular Plan",
+    "Plan Price": 9.99
+  },
+  {
+    "Plan": "Standard Plan",
+    "Plan Price": 19.99
+  },
+  {
+    "Plan": "Premium Plan",
+    "Plan Price": 29.99
+  },
+  {
+    "Plan": "Family Plan",
+    "Plan Price": 39.99
+  },
+  {
+    "Plan": "Business Plan",
+    "Plan Price": 49.99
+  }
+]

@@ -1,0 +1,47 @@
+.home-background {
+  background-color: #ffcf58; /* Light Beige */
+  min-height: 100vh; /* Ensures it covers the full height */
+}
+
+.bag-image {
+  position: fixed;
+  top: 50%;
+  right: 5px; 
+  transform: translateY(-50%);
+  z-index: 10;
+  border-radius: 10%; 
+  /* background-color: white;  */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s ease; 
+}
+
+.bag-image:hover {
+  transform: translateY(-50%) scale(1.1); /* Slightly enlarge on hover */
+}
+
+.bag-image img {
+  height: 50px; 
+  width: auto; 
+}
+
+.menu-image {
+  position: fixed;
+  top: 58%;
+  right: 5px; 
+  transform: translateY(-50%);
+  z-index: 10;
+  border-radius: 10%; 
+  /* background-color: white;  */
+  background-color: inherit;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s ease; 
+}
+
+.menu-image:hover {
+  transform: translateY(-50%) scale(1.1); /* Slightly enlarge on hover */
+}
+
+.menu-image img {
+  height: 50px; 
+  width: auto; 
+}
